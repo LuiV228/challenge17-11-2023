@@ -46,3 +46,26 @@ calculateTwo.addEventListener('click', modulus);
 document.getElementById(`bubbleTea`).textContent = `White Tea`
 document.querySelector(`.greenTea`).textContent = `Black Tea`
 document.getElementsByTagName(`li`)[3].textContent = `Herbal Tea`
+
+// Question 8
+
+let lastName = `Toffey`
+
+// Question 9
+
+let parentsAge = 20
+
+// Question 10
+
+let coolCars = ['BMW','Bugati','Ferrari','McLaren', 'Mercedes']
+
+// Question 11
+
+coolCars.splice(3, 1, `Lamborghini`)
+
+// Question 12
+
+for (let i = 0; i < coolCars.length; i++) {
+    console.log(`-> ${coolCars[i]}`);;
+}
+
