@@ -69,3 +69,41 @@ for (let i = 0; i < coolCars.length; i++) {
     console.log(`-> ${coolCars[i]}`);;
 }
 
+// Question 13
+
+console.log(coolCars.reverse());
+
+// Question 14
+
+let coolKars = coolCars.shift(-1)
+console.log(coolCars.reverse());
+console.log(coolKars);
+
+// Question 15
+
+console.log(coolCars.unshift(coolKars));
+console.log(coolCars);
+
+// Question 16
+
+let age = 18
+let a = 17
+
+if (age <= 17) {
+    console.log(`Age: ${age} (17 and younger)`); 
+} 
+else {
+    console.log(`Age: ${age} (18 and older)`); 
+}
+
+// Question 17
+
+switch (true) {
+    case age <= 17:
+        console.log(`Age: ${age} (17 and younger)`);
+        break;
+
+    case age > 17:
+        console.log(`Age: ${age} (18 and older)`);
+        break;
+}
